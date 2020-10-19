@@ -1,5 +1,5 @@
-let canvas = document.getElementById("snake");
-let context = canvas.getContext("2d");
+let canvas = document.getElementById('snake');
+let context = canvas.getContext('2d');
 let box = 32;
 let snake = [];
 snake[0] = {
@@ -9,7 +9,7 @@ snake[0] = {
 let direction = "right";
 
 function criarBG() {
-    context.fillStyle = "lightgreen";
+    context.fillStyle = 'blue';
     context.fillReact(0, 0, 16 * box, 16 * box);
 }
 
